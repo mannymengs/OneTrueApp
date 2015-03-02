@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20F3F160-F163-4790-9AB5-A2F4D67DAC0A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OneTrueApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>e9e57388-1a9c-4dea-9491-9a61cda40fec</key>
+		<string>svn+ssh://svn.code.sf.net/p/onetrueapp/svn</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OneTrueApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>e9e57388-1a9c-4dea-9491-9a61cda40fec</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>e9e57388-1a9c-4dea-9491-9a61cda40fec</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>e9e57388-1a9c-4dea-9491-9a61cda40fec</string>
+			<key>IDESourceControlWCCName</key>
+			<string>onetruesvn</string>
+		</dict>
+	</array>
+</dict>
+</plist>

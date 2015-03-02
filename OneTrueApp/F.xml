@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modclock>
+    <mod time="00:00" flag="none" name="Before School"/>
+    <mod time="08:15" flag="left" name="Homeroom"/>
+    <mod time="08:20" flag="until" name="1st Period (F)"/>
+    <mod time="08:25" flag="left" name="1st Period (F)"/>
+    <mod time="09:10" flag="until" name="2nd Period (G)"/>
+    <mod time="09:15" flag="left" name="2nd Period (G)"/>
+    <mod time="10:00" flag="until" name="3rd Period (H)"/>
+    <mod time="10:05" flag="left" name="3rd Period (H)"/>
+    <mod time="10:50" flag="until" name="4th Period (A)"/>
+    <mod time="10:55" flag="left" name="4th Period - 1st Lunch (A)"/>
+    <mod time="11:20" flag="until" name="4th Period (A)"/>
+    <mod time="11:25" flag="left" name="4th Period (A)"/>
+    <mod time="11:40" flag="left" name="4th Period - 2nd Lunch (A)"/>
+    <mod time="12:05" flag="until" name="5th Period (B)"/>
+    <mod time="12:10" flag="left" name="5th Period (B)"/>
+    <mod time="12:55" flag="until" name="6th Period (C)"/>
+    <mod time="13:00" flag="left" name="6th Period (C)"/>
+    <mod time="13:45" flag="until" name="7th Period (D)"/>
+    <mod time="13:50" flag="left" name="7th Period (D)"/>
+    <mod time="14:35" flag="none" name="After School"/>
+</modclock>
