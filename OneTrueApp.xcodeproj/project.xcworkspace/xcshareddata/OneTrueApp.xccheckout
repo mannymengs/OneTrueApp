@@ -10,6 +10,8 @@
 	<string>OneTrueApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>F9FC15C1192EBBC386E002E59DC122F58A1E1796</key>
+		<string>https://github.com/mannymengs/OneTrueApp.git</string>
 		<key>e9e57388-1a9c-4dea-9491-9a61cda40fec</key>
 		<string>svn+ssh://svn.code.sf.net/p/onetrueapp/svn</string>
 	</dict>
@@ -17,15 +19,27 @@
 	<string>OneTrueApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>e9e57388-1a9c-4dea-9491-9a61cda40fec</key>
+		<key>F9FC15C1192EBBC386E002E59DC122F58A1E1796</key>
 		<string>../..</string>
+		<key>e9e57388-1a9c-4dea-9491-9a61cda40fec</key>
+		<string>../../../onetruesvn</string>
 	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mannymengs/OneTrueApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>e9e57388-1a9c-4dea-9491-9a61cda40fec</string>
+	<string>F9FC15C1192EBBC386E002E59DC122F58A1E1796</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9FC15C1192EBBC386E002E59DC122F58A1E1796</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OneTrueApp</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>

@@ -6,20 +6,17 @@
 //  Copyright (c) 2014 JSM Inc. All rights reserved.
 //
 
+@class AppDelegate;
 #import <Foundation/Foundation.h>
-#import "AppDelegate.h"
 #import "ModClock.h"
 
 @interface ModClockParser : NSObject <NSXMLParserDelegate>
 {
-    NSMutableString *currentNodeContent;
+    NSMutableString *currentElementValue;
     ModClock *mc;
     AppDelegate *app;
 }
 
 -(id) initParser;
--(id) loadXMLByURL: (NSString *) urlString;
--(ModClock *) mcDisp;
-
 
 @end

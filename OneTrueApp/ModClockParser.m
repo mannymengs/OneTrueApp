@@ -6,40 +6,16 @@
 //  Copyright (c) 2014 JSM Inc. All rights reserved.
 //
 
-/*
- How to Implement:
- Read in type of day (?)
- Parse said day's XML and store all mod clock times, flags, and names in 3 arrays
- Get current time, and compare to all times in array of times to see which is closest (parse NSString into NSInteger?)
- Use that comparison to find grab corresponding flag and name
- Return these values to ModClock class
- */
-
 #import "ModClockParser.h"
 #import "AppDelegate.h"
 
 @implementation ModClockParser
-
 NSXMLParser *parser;
 
-/**
- This method loads the XML code of URL which is given as a string and returns a parser which can be used to parse it.
- Parameters:
- urlString
-    the string holding the URL containing the XML which is to be parsed
- 
- Return Value:
- self
-    the parser which can be used to parse the loaded XML
- */
--(id)loadXMLByURL:(NSString *)urlString
+- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError
 {
-    NSURL *mcXML = [NSURL URLWithString:urlString];
-    NSData *xmlData = [[NSData alloc] initWithContentsOfURL:mcXML];
-    parser = [[NSXMLParser alloc] initWithData:xmlData];
-    parser.delegate = self;
-    [parser parse];
-    return self;
+    NSString *errorString = [NSString stringWithFormat:@"Could not load data - error at line %ld", (long)parser.lineNumber];
+    NSLog(@"Error - %@",errorString);
 }
 
 /**
@@ -52,12 +28,14 @@ NSXMLParser *parser;
  */
 -(void) parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
 {
-    if(!currentNodeContent)
+    if(!currentElementValue)
     {
-        currentNodeContent = [[NSMutableString alloc] initWithString:string];
+        currentElementValue = [[NSMutableString alloc] initWithString:string];
     }
     else
-    [currentNodeContent appendString:string];
+    {
+        [currentElementValue appendString:string];
+    }
 }
 
 /**
@@ -70,26 +48,27 @@ NSXMLParser *parser;
 {
     if(self == [super init])
     {
-        app = (AppDelegate *)[[UIApplication sharedApplication]delegate];
+        app = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     }
     return self;
 }
 
+/**
+ This pair of methods deals with the elements and attributes in the xml
+*/
 -(void) parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
 {
     if([elementName isEqualToString:@"modclock"])
     {
-        app.modclocks = [[NSMutableArray alloc] init];
-        app.times = [[NSMutableArray alloc] init];
-        app.flags = [[NSMutableArray alloc] init];
-        app.names = [[NSMutableArray alloc] init];
+        app.modclocks = [[NSMutableArray alloc] init];//for parent element, allocate memory and initialize mutable array of mod clocks
     }
     else if([elementName isEqualToString:@"mod"])
     {
+        //for child element, allocate memory and initizalize mod clock, then set properties of mod clock to equal attributes of the element
         mc = [[ModClock alloc] init];
-        mc.time = [[attributeDict objectForKey:@"time"] stringValue];
-        mc.flag = [[attributeDict objectForKey:@"flag"] stringValue];
-        mc.name = [[attributeDict objectForKey:@"name"] stringValue];
+        mc.time = [attributeDict objectForKey:@"time"];
+        mc.flag = [attributeDict objectForKey:@"flag"];
+        mc.name = [attributeDict objectForKey:@"name"];
     }
 }
 
@@ -97,27 +76,17 @@ NSXMLParser *parser;
 {
     if([elementName isEqualToString:@"modclock"])
     {
-        return;
+        return;//ignores parent element
     }
-    if ([elementName isEqualToString:@"name"])
+    else if ([elementName isEqualToString:@"mod"])
     {
+        //when done with each child element, add newly filled mod clock to mutable array, then set it to nil
         [app.modclocks addObject:mc];
         mc = nil;
-        
     }
-}
-
-/**
- This method will return the ModClock object holding the current mod clock display information which can then be used to display the time
- Returns:
- mc
-    the mod clock object
- */
--(ModClock *) mcDisp
-{
-    mc.name = @"Name";
-    mc.time = @"Time";
-    mc.flag = @"Flag";
-    return mc;
+    else
+    {
+        [mc setValue:currentElementValue forKey:elementName];//if neither of the above work, which is impossible
+    }
 }
 @end

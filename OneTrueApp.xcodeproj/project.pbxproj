@@ -13,10 +13,7 @@
 		0A5BECC51A06C66C00FDFAB9 /* OneTrueAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BECC41A06C66C00FDFAB9 /* OneTrueAppTests.m */; };
 		BA00E3121A37803000EAAABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00E3111A37803000EAAABA /* AppDelegate.m */; };
 		BA0515AD1A08108700D21D0F /* Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0515A81A08108700D21D0F /* Badge.png */; };
-		BA0515AE1A08108700D21D0F /* WreathHor.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0515A91A08108700D21D0F /* WreathHor.png */; };
 		BA0515AF1A08108700D21D0F /* Bell Schedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0515AA1A08108700D21D0F /* Bell Schedule.jpg */; };
-		BA0515B01A08108700D21D0F /* Wreath.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0515AB1A08108700D21D0F /* Wreath.png */; };
-		BA0515B11A08108700D21D0F /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0515AC1A08108700D21D0F /* Logo.png */; };
 		BA0515B81A08112100D21D0F /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0515B31A08112100D21D0F /* ScheduleView.m */; };
 		BA0515BA1A08112100D21D0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0515B71A08112100D21D0F /* ViewController.m */; };
 		BA06D3881A0BE73200A4DF65 /* Title.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA06D3871A0BE73200A4DF65 /* Title.jpg */; };
@@ -64,6 +61,8 @@
 		BA3561FA1A13AA5800D1407E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3561F91A13AA5800D1407E /* Bolts.framework */; };
 		BA3561FC1A13AA8600D1407E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3561FB1A13AA8600D1407E /* Parse.framework */; };
 		BA3561FE1A13AA9900D1407E /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3561FD1A13AA9900D1407E /* ParseFacebookUtils.framework */; };
+		BA580A941AA649E600268154 /* ModClockParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA580A901AA649E600268154 /* ModClockParser.m */; };
+		BA580A951AA649E600268154 /* ModClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BA580A921AA649E600268154 /* ModClock.m */; };
 		BA5EF6E91A97936E00948F98 /* Jonah.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5EF6E81A97936E00948F98 /* Jonah.png */; };
 		BA656C2A1A238B9100C9271C /* VXCView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA656C291A238B9100C9271C /* VXCView.m */; };
 		BA656C2D1A238BCB00C9271C /* VSocView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA656C2C1A238BCB00C9271C /* VSocView.m */; };
@@ -118,8 +117,6 @@
 		BAA7B8D31A8AB5FD00C63E45 /* H-45.xml in Resources */ = {isa = PBXBuildFile; fileRef = BAA7B8AB1A8AB5FD00C63E45 /* H-45.xml */; };
 		BAA7B8D41A8AB5FD00C63E45 /* H-60.xml in Resources */ = {isa = PBXBuildFile; fileRef = BAA7B8AC1A8AB5FD00C63E45 /* H-60.xml */; };
 		BAA7B8D51A8AB5FD00C63E45 /* H.xml in Resources */ = {isa = PBXBuildFile; fileRef = BAA7B8AD1A8AB5FD00C63E45 /* H.xml */; };
-		BAA7B8DA1A8AB6D900C63E45 /* ModClockParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7B8D61A8AB6D900C63E45 /* ModClockParser.m */; };
-		BAA7B8DB1A8AB6D900C63E45 /* ModClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7B8D81A8AB6D900C63E45 /* ModClock.m */; };
 		BAB2B2D71A104636001D2221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB2B2D51A104636001D2221 /* Main.storyboard */; };
 		BABC85AB1A874A82006E2661 /* OTA0000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABC85331A874A82006E2661 /* OTA0000.jpg */; };
 		BABC85AC1A874A82006E2661 /* OTA0001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABC85341A874A82006E2661 /* OTA0001.jpg */; };
@@ -278,10 +275,7 @@
 		BA00E3101A37803000EAAABA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../../Downloads/Sharing Folder (1)/AppDelegate.h"; sourceTree = "<group>"; };
 		BA00E3111A37803000EAAABA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../../Downloads/Sharing Folder (1)/AppDelegate.m"; sourceTree = "<group>"; };
 		BA0515A81A08108700D21D0F /* Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Badge.png; path = ../../../Documents/Badge.png; sourceTree = "<group>"; };
-		BA0515A91A08108700D21D0F /* WreathHor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WreathHor.png; path = ../../../Downloads/WreathHor.png; sourceTree = "<group>"; };
 		BA0515AA1A08108700D21D0F /* Bell Schedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bell Schedule.jpg"; path = "../../../Downloads/Bell Schedule.jpg"; sourceTree = "<group>"; };
-		BA0515AB1A08108700D21D0F /* Wreath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wreath.png; path = ../../../Downloads/Wreath.png; sourceTree = "<group>"; };
-		BA0515AC1A08108700D21D0F /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../Downloads/Logo.png; sourceTree = "<group>"; };
 		BA0515B21A08112100D21D0F /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleView.h; path = ../../onetrueapp/onetrueapp/ScheduleView.h; sourceTree = "<group>"; };
 		BA0515B31A08112100D21D0F /* ScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleView.m; path = ../../onetrueapp/onetrueapp/ScheduleView.m; sourceTree = "<group>"; };
 		BA0515B61A08112100D21D0F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../onetrueapp/onetrueapp/ViewController.h; sourceTree = "<group>"; };
@@ -352,6 +346,10 @@
 		BA3561F91A13AA5800D1407E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Downloads/Bolts.framework; sourceTree = "<group>"; };
 		BA3561FB1A13AA8600D1407E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Downloads/Parse.framework; sourceTree = "<group>"; };
 		BA3561FD1A13AA9900D1407E /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = ../../Downloads/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		BA580A901AA649E600268154 /* ModClockParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModClockParser.m; sourceTree = "<group>"; };
+		BA580A911AA649E600268154 /* ModClockParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModClockParser.h; sourceTree = "<group>"; };
+		BA580A921AA649E600268154 /* ModClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModClock.m; sourceTree = "<group>"; };
+		BA580A931AA649E600268154 /* ModClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModClock.h; sourceTree = "<group>"; };
 		BA5EF6E81A97936E00948F98 /* Jonah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jonah.png; sourceTree = "<group>"; };
 		BA656C281A238B9100C9271C /* VXCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXCView.h; sourceTree = "<group>"; };
 		BA656C291A238B9100C9271C /* VXCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXCView.m; sourceTree = "<group>"; };
@@ -419,10 +417,6 @@
 		BAA7B8AB1A8AB5FD00C63E45 /* H-45.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "H-45.xml"; sourceTree = "<group>"; };
 		BAA7B8AC1A8AB5FD00C63E45 /* H-60.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "H-60.xml"; sourceTree = "<group>"; };
 		BAA7B8AD1A8AB5FD00C63E45 /* H.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = H.xml; sourceTree = "<group>"; };
-		BAA7B8D61A8AB6D900C63E45 /* ModClockParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModClockParser.m; path = ../ModClockParser.m; sourceTree = "<group>"; };
-		BAA7B8D71A8AB6D900C63E45 /* ModClockParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModClockParser.h; path = ../ModClockParser.h; sourceTree = "<group>"; };
-		BAA7B8D81A8AB6D900C63E45 /* ModClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModClock.m; path = ../ModClock.m; sourceTree = "<group>"; };
-		BAA7B8D91A8AB6D900C63E45 /* ModClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModClock.h; path = ../ModClock.h; sourceTree = "<group>"; };
 		BAB2B2D61A104636001D2221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BABC85331A874A82006E2661 /* OTA0000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OTA0000.jpg; sourceTree = "<group>"; };
 		BABC85341A874A82006E2661 /* OTA0001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OTA0001.jpg; sourceTree = "<group>"; };
@@ -650,10 +644,10 @@
 				0A5BECA81A06C66C00FDFAB9 /* Supporting Files */,
 				BACFAE6B1A198FE800455D6A /* Athletics */,
 				BAB2B2D51A104636001D2221 /* Main.storyboard */,
-				BAA7B8D61A8AB6D900C63E45 /* ModClockParser.m */,
-				BAA7B8D71A8AB6D900C63E45 /* ModClockParser.h */,
-				BAA7B8D81A8AB6D900C63E45 /* ModClock.m */,
-				BAA7B8D91A8AB6D900C63E45 /* ModClock.h */,
+				BA580A901AA649E600268154 /* ModClockParser.m */,
+				BA580A911AA649E600268154 /* ModClockParser.h */,
+				BA580A921AA649E600268154 /* ModClock.m */,
+				BA580A931AA649E600268154 /* ModClock.h */,
 				BAFCF4AC1A27CF1100B6F02D /* BellView.h */,
 				BAFCF4AD1A27CF1100B6F02D /* BellView.m */,
 				BAFCF49E1A27CE3000B6F02D /* NoHall.h */,
@@ -686,16 +680,13 @@
 				BABC85321A8748E6006E2661 /* OTArotation */,
 				BA0515A81A08108700D21D0F /* Badge.png */,
 				BA5EF6E81A97936E00948F98 /* Jonah.png */,
-				BA0515A91A08108700D21D0F /* WreathHor.png */,
 				BA06D3891A0BE7B900A4DF65 /* NoHall.jpg */,
 				BA0515AA1A08108700D21D0F /* Bell Schedule.jpg */,
 				BA06D3871A0BE73200A4DF65 /* Title.jpg */,
 				BA06D38B1A0BE7BF00A4DF65 /* 20minute.jpg */,
 				BA06D38D1A0BE7C500A4DF65 /* 35minute.jpg */,
-				BA0515AB1A08108700D21D0F /* Wreath.png */,
 				BA06D3911A0BE7CF00A4DF65 /* 60minutes.jpg */,
 				BA06D38F1A0BE7CA00A4DF65 /* 45minutes.jpg */,
-				BA0515AC1A08108700D21D0F /* Logo.png */,
 				0A5BECB51A06C66C00FDFAB9 /* Images.xcassets */,
 				0A5BECA91A06C66C00FDFAB9 /* Info.plist */,
 				0A5BECAA1A06C66C00FDFAB9 /* main.m */,
@@ -1214,14 +1205,12 @@
 				BABC85F01A874A82006E2661 /* OTA0069.jpg in Resources */,
 				BABC85F61A874A82006E2661 /* OTA0075.jpg in Resources */,
 				BABC85EC1A874A82006E2661 /* OTA0065.jpg in Resources */,
-				BA0515B11A08108700D21D0F /* Logo.png in Resources */,
 				BABC85E11A874A82006E2661 /* OTA0054.jpg in Resources */,
 				BABC86041A874A82006E2661 /* OTA0089.jpg in Resources */,
 				BABC85CC1A874A82006E2661 /* OTA0033.jpg in Resources */,
 				BAA7B8BD1A8AB5FD00C63E45 /* D-20.xml in Resources */,
 				BABC85AB1A874A82006E2661 /* OTA0000.jpg in Resources */,
 				BABC85B91A874A82006E2661 /* OTA0014.jpg in Resources */,
-				BA0515AE1A08108700D21D0F /* WreathHor.png in Resources */,
 				BAA7B8C71A8AB5FD00C63E45 /* F-20.xml in Resources */,
 				BABC86131A874A82006E2661 /* OTA0104.jpg in Resources */,
 				BABC85B61A874A82006E2661 /* OTA0011.jpg in Resources */,
@@ -1266,7 +1255,6 @@
 				BABC860B1A874A82006E2661 /* OTA0096.jpg in Resources */,
 				BABC861E1A874A82006E2661 /* OTA0115.jpg in Resources */,
 				BA0515AD1A08108700D21D0F /* Badge.png in Resources */,
-				BA0515B01A08108700D21D0F /* Wreath.png in Resources */,
 				BABC85EB1A874A82006E2661 /* OTA0064.jpg in Resources */,
 				BABC85FA1A874A82006E2661 /* OTA0079.jpg in Resources */,
 				BABC860C1A874A82006E2661 /* OTA0097.jpg in Resources */,
@@ -1310,6 +1298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA580A941AA649E600268154 /* ModClockParser.m in Sources */,
 				BA06F8F91A27D7BE00B5DDC1 /* FourthLaxView.m in Sources */,
 				BAFCF4AE1A27CF1100B6F02D /* BellView.m in Sources */,
 				BA0515BA1A08112100D21D0F /* ViewController.m in Sources */,
@@ -1330,7 +1319,7 @@
 				BA00E3121A37803000EAAABA /* AppDelegate.m in Sources */,
 				BA656C2A1A238B9100C9271C /* VXCView.m in Sources */,
 				BA6C85BF1A238DAE00F705F6 /* JVXCView.m in Sources */,
-				BAA7B8DB1A8AB6D900C63E45 /* ModClock.m in Sources */,
+				BA580A951AA649E600268154 /* ModClock.m in Sources */,
 				BA243AF31A23902500496F23 /* JVTenView.m in Sources */,
 				BACFAE581A19655800455D6A /* AthleticsView.m in Sources */,
 				BACFAE5E1A196A9000455D6A /* JVView.m in Sources */,
@@ -1341,7 +1330,6 @@
 				BA06F9051A27D81D00B5DDC1 /* ThreeBaskView.m in Sources */,
 				BA243AEA1A238FFE00496F23 /* JVBSocView.m in Sources */,
 				BACFAE5B1A196A8400455D6A /* VarsityView.m in Sources */,
-				BAA7B8DA1A8AB6D900C63E45 /* ModClockParser.m in Sources */,
 				BA243AED1A23900A00496F23 /* JVBaskView.m in Sources */,
 				BA243AF91A23903A00496F23 /* JVBaseView.m in Sources */,
 				BA656C2D1A238BCB00C9271C /* VSocView.m in Sources */,
