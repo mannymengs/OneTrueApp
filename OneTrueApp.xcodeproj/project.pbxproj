@@ -11,7 +11,6 @@
 		0A5BECB61A06C66C00FDFAB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5BECB51A06C66C00FDFAB9 /* Images.xcassets */; };
 		0A5BECB91A06C66C00FDFAB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5BECB71A06C66C00FDFAB9 /* LaunchScreen.xib */; };
 		0A5BECC51A06C66C00FDFAB9 /* OneTrueAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BECC41A06C66C00FDFAB9 /* OneTrueAppTests.m */; };
-		BA00E3121A37803000EAAABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00E3111A37803000EAAABA /* AppDelegate.m */; };
 		BA0515AD1A08108700D21D0F /* Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0515A81A08108700D21D0F /* Badge.png */; };
 		BA0515AF1A08108700D21D0F /* Bell Schedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0515AA1A08108700D21D0F /* Bell Schedule.jpg */; };
 		BA0515B81A08112100D21D0F /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0515B31A08112100D21D0F /* ScheduleView.m */; };
@@ -42,7 +41,6 @@
 		BA243B081A2390F800496F23 /* JuniorTenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA243B071A2390F800496F23 /* JuniorTenView.m */; };
 		BA243B0B1A23910100496F23 /* ThreeSocView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA243B0A1A23910100496F23 /* ThreeSocView.m */; };
 		BA243B111A23911500496F23 /* ThreeBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA243B101A23911500496F23 /* ThreeBaseView.m */; };
-		BA243B141A2393BF00496F23 /* LunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA243B131A2393BF00496F23 /* LunchView.m */; };
 		BA3561DC1A13A7F200D1407E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3561DB1A13A7F200D1407E /* Accounts.framework */; };
 		BA3561DE1A13A7FC00D1407E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3561DD1A13A7FC00D1407E /* Social.framework */; };
 		BA3561E01A13A80400D1407E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3561DF1A13A80400D1407E /* AdSupport.framework */; };
@@ -77,6 +75,8 @@
 		BA6C85BF1A238DAE00F705F6 /* JVXCView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C85BE1A238DAE00F705F6 /* JVXCView.m */; };
 		BA6C85C21A238DB600F705F6 /* JVSocView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C85C11A238DB600F705F6 /* JVSocView.m */; };
 		BA6C85C51A238E1500F705F6 /* JVFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C85C41A238E1500F705F6 /* JVFootView.m */; };
+		BA8F29891AAE25430089197D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8F29871AAE25430089197D /* AppDelegate.m */; };
+		BA8F298C1AAE25900089197D /* LunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8F298A1AAE25900089197D /* LunchView.m */; };
 		BAA7B8AE1A8AB5FD00C63E45 /* A-20.xml in Resources */ = {isa = PBXBuildFile; fileRef = BAA7B8861A8AB5FD00C63E45 /* A-20.xml */; };
 		BAA7B8AF1A8AB5FD00C63E45 /* A-35.xml in Resources */ = {isa = PBXBuildFile; fileRef = BAA7B8871A8AB5FD00C63E45 /* A-35.xml */; };
 		BAA7B8B01A8AB5FD00C63E45 /* A-45.xml in Resources */ = {isa = PBXBuildFile; fileRef = BAA7B8881A8AB5FD00C63E45 /* A-45.xml */; };
@@ -272,8 +272,6 @@
 		0A5BECBE1A06C66C00FDFAB9 /* OneTrueAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTrueAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5BECC31A06C66C00FDFAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5BECC41A06C66C00FDFAB9 /* OneTrueAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneTrueAppTests.m; sourceTree = "<group>"; };
-		BA00E3101A37803000EAAABA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../../Downloads/Sharing Folder (1)/AppDelegate.h"; sourceTree = "<group>"; };
-		BA00E3111A37803000EAAABA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../../Downloads/Sharing Folder (1)/AppDelegate.m"; sourceTree = "<group>"; };
 		BA0515A81A08108700D21D0F /* Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Badge.png; path = ../../../Documents/Badge.png; sourceTree = "<group>"; };
 		BA0515AA1A08108700D21D0F /* Bell Schedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bell Schedule.jpg"; path = "../../../Downloads/Bell Schedule.jpg"; sourceTree = "<group>"; };
 		BA0515B21A08112100D21D0F /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleView.h; path = ../../onetrueapp/onetrueapp/ScheduleView.h; sourceTree = "<group>"; };
@@ -326,8 +324,6 @@
 		BA243B0A1A23910100496F23 /* ThreeSocView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeSocView.m; sourceTree = "<group>"; };
 		BA243B0F1A23911500496F23 /* ThreeBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeBaseView.h; sourceTree = "<group>"; };
 		BA243B101A23911500496F23 /* ThreeBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeBaseView.m; sourceTree = "<group>"; };
-		BA243B121A2393BF00496F23 /* LunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LunchView.h; path = "../../../Downloads/Sharing Folder 2/LunchView.h"; sourceTree = "<group>"; };
-		BA243B131A2393BF00496F23 /* LunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LunchView.m; path = "../../../Downloads/Sharing Folder 2/LunchView.m"; sourceTree = "<group>"; };
 		BA3561DB1A13A7F200D1407E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		BA3561DD1A13A7FC00D1407E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BA3561DF1A13A80400D1407E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -377,6 +373,10 @@
 		BA6C85C11A238DB600F705F6 /* JVSocView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVSocView.m; sourceTree = "<group>"; };
 		BA6C85C31A238E1500F705F6 /* JVFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFootView.h; sourceTree = "<group>"; };
 		BA6C85C41A238E1500F705F6 /* JVFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFootView.m; sourceTree = "<group>"; };
+		BA8F29871AAE25430089197D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA8F29881AAE25430089197D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA8F298A1AAE25900089197D /* LunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunchView.m; sourceTree = "<group>"; };
+		BA8F298B1AAE25900089197D /* LunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunchView.h; sourceTree = "<group>"; };
 		BAA7B8861A8AB5FD00C63E45 /* A-20.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A-20.xml"; sourceTree = "<group>"; };
 		BAA7B8871A8AB5FD00C63E45 /* A-35.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A-35.xml"; sourceTree = "<group>"; };
 		BAA7B8881A8AB5FD00C63E45 /* A-45.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A-45.xml"; sourceTree = "<group>"; };
@@ -644,6 +644,8 @@
 				0A5BECA81A06C66C00FDFAB9 /* Supporting Files */,
 				BACFAE6B1A198FE800455D6A /* Athletics */,
 				BAB2B2D51A104636001D2221 /* Main.storyboard */,
+				BA8F29871AAE25430089197D /* AppDelegate.m */,
+				BA8F29881AAE25430089197D /* AppDelegate.h */,
 				BA580A901AA649E600268154 /* ModClockParser.m */,
 				BA580A911AA649E600268154 /* ModClockParser.h */,
 				BA580A921AA649E600268154 /* ModClock.m */,
@@ -660,10 +662,8 @@
 				BAFCF4A41A27CE3000B6F02D /* TwentyHall.m */,
 				BAFCF4961A27CDA100B6F02D /* FortyHall.h */,
 				BAFCF4971A27CDA100B6F02D /* FortyHall.m */,
-				BA243B121A2393BF00496F23 /* LunchView.h */,
-				BA243B131A2393BF00496F23 /* LunchView.m */,
-				BA00E3101A37803000EAAABA /* AppDelegate.h */,
-				BA00E3111A37803000EAAABA /* AppDelegate.m */,
+				BA8F298A1AAE25900089197D /* LunchView.m */,
+				BA8F298B1AAE25900089197D /* LunchView.h */,
 				BA0515B21A08112100D21D0F /* ScheduleView.h */,
 				BA0515B31A08112100D21D0F /* ScheduleView.m */,
 				BA0515B61A08112100D21D0F /* ViewController.h */,
@@ -1316,7 +1316,6 @@
 				BA06F8FC1A27D7CD00B5DDC1 /* FourthBaseView.m in Sources */,
 				BA656C391A238C0700C9271C /* VWrestView.m in Sources */,
 				BAFCF4A61A27CE3000B6F02D /* SixtyHall.m in Sources */,
-				BA00E3121A37803000EAAABA /* AppDelegate.m in Sources */,
 				BA656C2A1A238B9100C9271C /* VXCView.m in Sources */,
 				BA6C85BF1A238DAE00F705F6 /* JVXCView.m in Sources */,
 				BA580A951AA649E600268154 /* ModClock.m in Sources */,
@@ -1331,6 +1330,7 @@
 				BA243AEA1A238FFE00496F23 /* JVBSocView.m in Sources */,
 				BACFAE5B1A196A8400455D6A /* VarsityView.m in Sources */,
 				BA243AED1A23900A00496F23 /* JVBaskView.m in Sources */,
+				BA8F298C1AAE25900089197D /* LunchView.m in Sources */,
 				BA243AF91A23903A00496F23 /* JVBaseView.m in Sources */,
 				BA656C2D1A238BCB00C9271C /* VSocView.m in Sources */,
 				BA243B111A23911500496F23 /* ThreeBaseView.m in Sources */,
@@ -1342,10 +1342,10 @@
 				BAFCF4A81A27CE3000B6F02D /* TwentyHall.m in Sources */,
 				BA656C331A238BF000C9271C /* VBaskView.m in Sources */,
 				BACFAE611A196AA300455D6A /* FourthView.m in Sources */,
+				BA8F29891AAE25430089197D /* AppDelegate.m in Sources */,
 				BA06F8F61A27D7B100B5DDC1 /* FourthBaskView.m in Sources */,
 				BA656C421A238C2100C9271C /* VLaxView.m in Sources */,
 				BACFAE641A196AAE00455D6A /* FifthView.m in Sources */,
-				BA243B141A2393BF00496F23 /* LunchView.m in Sources */,
 				BACFAE671A196AB800455D6A /* ThirdView.m in Sources */,
 				BACFAE6A1A196ACC00455D6A /* JuniorView.m in Sources */,
 				BA243B021A2390E200496F23 /* JuniorHockView.m in Sources */,
