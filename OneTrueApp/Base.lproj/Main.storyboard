@@ -3704,8 +3704,8 @@
                                 </items>
                                 <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </toolbar>
-                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ygf-Sa-2Eg">
-                                <rect key="frame" x="0.0" y="63" width="320" height="417"/>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ygf-Sa-2Eg">
+                                <rect key="frame" x="-1" y="63" width="322" height="417"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
@@ -3713,6 +3713,8 @@
                         <constraints>
                             <constraint firstItem="ygf-Sa-2Eg" firstAttribute="top" secondItem="8Lw-fB-ab9" secondAttribute="bottom" constant="43" id="Boa-05-JwH"/>
                             <constraint firstItem="dk1-5T-xFf" firstAttribute="top" secondItem="ygf-Sa-2Eg" secondAttribute="bottom" id="CQt-pD-bFj"/>
+                            <constraint firstItem="ygf-Sa-2Eg" firstAttribute="leading" secondItem="17b-Uh-fcP" secondAttribute="leadingMargin" constant="-17" id="Pad-4R-Xx1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ygf-Sa-2Eg" secondAttribute="trailing" constant="-17" id="WVc-Nt-vHM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="1Ke-93-Eb6"/>
@@ -3769,15 +3771,17 @@
                                 </items>
                                 <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </toolbar>
-                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Xz-sw-xCl">
-                                <rect key="frame" x="0.0" y="63" width="320" height="417"/>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Xz-sw-xCl">
+                                <rect key="frame" x="-1" y="63" width="322" height="417"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="1Xz-sw-xCl" firstAttribute="top" secondItem="Yzr-90-c4Z" secondAttribute="bottom" constant="43" id="P6f-6a-UhF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Xz-sw-xCl" secondAttribute="trailing" constant="-17" id="Pic-i1-JMZ"/>
                             <constraint firstItem="hjz-P4-WLq" firstAttribute="top" secondItem="1Xz-sw-xCl" secondAttribute="bottom" id="a26-m3-RH5"/>
+                            <constraint firstItem="1Xz-sw-xCl" firstAttribute="leading" secondItem="Dda-yY-7mD" secondAttribute="leadingMargin" constant="-17" id="tjT-UL-AVG"/>
                         </constraints>
                     </view>
                     <connections>
