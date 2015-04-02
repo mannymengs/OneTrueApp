@@ -17,7 +17,6 @@
 @property NSString *dispString;
 @property (weak, nonatomic) IBOutlet UILabel *mcLabel;
 -(void)setmcDisplay:(NSString *)mcDisp;
-- (IBAction)refreshDisplay:(id)sender;
 
 @end
 

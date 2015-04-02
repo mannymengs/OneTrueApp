@@ -18,7 +18,7 @@
 
 
 - (void)viewDidLoad {
-    
+   /**
     AnimatedPicture.animationImages = [NSArray arrayWithObjects:
                                        [UIImage imageNamed:@"OTA0000.jpg"],
                                        [UIImage imageNamed:@"OTA0001.jpg"],
@@ -145,6 +145,7 @@
     [AnimatedPicture setAnimationRepeatCount:0];
     AnimatedPicture.animationDuration = 4;
     [AnimatedPicture startAnimating];
+    */
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
