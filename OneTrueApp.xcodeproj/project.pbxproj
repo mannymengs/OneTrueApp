@@ -264,6 +264,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0944241AD070F700AC10BE /* Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parse.h; sourceTree = "<group>"; };
 		0A5BECA51A06C66C00FDFAB9 /* OneTrueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTrueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5BECA91A06C66C00FDFAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5BECAA1A06C66C00FDFAB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -644,6 +645,7 @@
 				0A5BECA81A06C66C00FDFAB9 /* Supporting Files */,
 				BACFAE6B1A198FE800455D6A /* Athletics */,
 				BAB2B2D51A104636001D2221 /* Main.storyboard */,
+				0A0944241AD070F700AC10BE /* Parse.h */,
 				BA8F29871AAE25430089197D /* AppDelegate.m */,
 				BA8F29881AAE25430089197D /* AppDelegate.h */,
 				BA580A901AA649E600268154 /* ModClockParser.m */,

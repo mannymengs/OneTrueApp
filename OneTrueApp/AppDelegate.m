@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <Parse/Parse.h>
+#import "Parse.h"
 #import "ViewController.h"
 #import "ModClockParser.h"
 
@@ -497,15 +497,15 @@
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken {
-    [PFPush storeDeviceToken:newDeviceToken];
-    [PFPush subscribeToChannelInBackground:@"" target:self selector:@selector(subscribeFinished:error:)];
+    //[PFPush storeDeviceToken:newDeviceToken];
+    //[PFPush subscribeToChannelInBackground:@"" target:self selector:@selector(subscribeFinished:error:)];
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
-    [PFPush handlePush:userInfo];
+    //[PFPush handlePush:userInfo];
     
     if (application.applicationState == UIApplicationStateInactive) {
-        [PFAnalytics trackAppOpenedWithRemoteNotificationPayload:userInfo];
+        //[PFAnalytics trackAppOpenedWithRemoteNotificationPayload:userInfo];
     }
 }
 
