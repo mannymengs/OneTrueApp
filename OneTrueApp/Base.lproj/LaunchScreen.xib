@@ -16,8 +16,15 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OTA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmp-uY-jyB">
-                    <rect key="frame" x="88" y="80" width="144" height="64"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foxnice.png" translatesAutoresizingMaskIntoConstraints="NO" id="zAO-yP-9mh">
+                    <rect key="frame" x="0.0" y="95" width="320" height="424"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OTA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmp-uY-jyB">
+                    <rect key="frame" x="88" y="8" width="144" height="87"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="87" id="5Xj-dk-P0O"/>
+                        <constraint firstAttribute="width" constant="144" id="Ufv-xo-hnA"/>
+                    </constraints>
                     <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="50"/>
                     <color key="textColor" red="0.83307686237373735" green="0.061574306069626043" blue="0.099896083066214017" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -25,13 +32,29 @@
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="zAO-yP-9mh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="E5L-1J-bjs"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="IQg-mZ-zS9"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstAttribute="centerX" secondItem="zAO-yP-9mh" secondAttribute="centerX" id="Mln-BW-XgO"/>
+                <constraint firstItem="Fmp-uY-jyB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="YLy-OQ-xTe"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstAttribute="bottom" secondItem="zAO-yP-9mh" secondAttribute="bottom" constant="49" id="fL4-TM-JEw"/>
+                <constraint firstAttribute="centerX" secondItem="Fmp-uY-jyB" secondAttribute="centerX" id="gv2-hM-62P"/>
+                <constraint firstAttribute="trailing" secondItem="zAO-yP-9mh" secondAttribute="trailing" id="hij-TI-83Z"/>
+                <constraint firstItem="zAO-yP-9mh" firstAttribute="top" secondItem="Fmp-uY-jyB" secondAttribute="bottom" id="sXB-9J-UD5"/>
+                <constraint firstAttribute="trailing" secondItem="Fmp-uY-jyB" secondAttribute="trailing" constant="88" id="t8e-DP-Acy"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="t8e-DP-Acy"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
+    <resources>
+        <image name="foxnice.png" width="595" height="842"/>
+    </resources>
 </document>

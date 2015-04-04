@@ -58,6 +58,7 @@
 		BA3561F81A13A89D00D1407E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3561F71A13A89D00D1407E /* UIKit.framework */; };
 		BA580A941AA649E600268154 /* ModClockParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA580A901AA649E600268154 /* ModClockParser.m */; };
 		BA580A951AA649E600268154 /* ModClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BA580A921AA649E600268154 /* ModClock.m */; };
+		BA5BA3EE1ACF199400BDB90A /* foxnice.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5BA3ED1ACF199400BDB90A /* foxnice.png */; };
 		BA5EF6E91A97936E00948F98 /* Jonah.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5EF6E81A97936E00948F98 /* Jonah.png */; };
 		BA656C2A1A238B9100C9271C /* VXCView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA656C291A238B9100C9271C /* VXCView.m */; };
 		BA656C2D1A238BCB00C9271C /* VSocView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA656C2C1A238BCB00C9271C /* VSocView.m */; };
@@ -242,9 +243,9 @@
 		BACFAE641A196AAE00455D6A /* FifthView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACFAE631A196AAE00455D6A /* FifthView.m */; };
 		BACFAE671A196AB800455D6A /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACFAE661A196AB800455D6A /* ThirdView.m */; };
 		BACFAE6A1A196ACC00455D6A /* JuniorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACFAE691A196ACC00455D6A /* JuniorView.m */; };
-		BAD2B47B1ACD912100DE122B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2B4781ACD912100DE122B /* Bolts.framework */; };
-		BAD2B47C1ACD912100DE122B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2B4791ACD912100DE122B /* Parse.framework */; };
-		BAD2B47D1ACD912100DE122B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2B47A1ACD912100DE122B /* ParseFacebookUtils.framework */; };
+		BAD2B4811ACD945B00DE122B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2B47E1ACD945B00DE122B /* Bolts.framework */; };
+		BAD2B4821ACD945B00DE122B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2B47F1ACD945B00DE122B /* Parse.framework */; };
+		BAD2B4831ACD945B00DE122B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2B4801ACD945B00DE122B /* ParseFacebookUtils.framework */; };
 		BAFCF49C1A27CDA100B6F02D /* FortyHall.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCF4971A27CDA100B6F02D /* FortyHall.m */; };
 		BAFCF4A51A27CE3000B6F02D /* NoHall.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCF49F1A27CE3000B6F02D /* NoHall.m */; };
 		BAFCF4A61A27CE3000B6F02D /* SixtyHall.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCF4A11A27CE3000B6F02D /* SixtyHall.m */; };
@@ -344,6 +345,7 @@
 		BA580A911AA649E600268154 /* ModClockParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModClockParser.h; sourceTree = "<group>"; };
 		BA580A921AA649E600268154 /* ModClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModClock.m; sourceTree = "<group>"; };
 		BA580A931AA649E600268154 /* ModClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModClock.h; sourceTree = "<group>"; };
+		BA5BA3ED1ACF199400BDB90A /* foxnice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foxnice.png; path = ../../Homework/foxnice.png; sourceTree = "<group>"; };
 		BA5EF6E81A97936E00948F98 /* Jonah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jonah.png; sourceTree = "<group>"; };
 		BA656C281A238B9100C9271C /* VXCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXCView.h; sourceTree = "<group>"; };
 		BA656C291A238B9100C9271C /* VXCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXCView.m; sourceTree = "<group>"; };
@@ -550,9 +552,9 @@
 		BACFAE661A196AB800455D6A /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
 		BACFAE681A196ACC00455D6A /* JuniorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuniorView.h; sourceTree = "<group>"; };
 		BACFAE691A196ACC00455D6A /* JuniorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuniorView.m; sourceTree = "<group>"; };
-		BAD2B4781ACD912100DE122B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = System/Library/Frameworks/Bolts.framework; sourceTree = SDKROOT; };
-		BAD2B4791ACD912100DE122B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = System/Library/Frameworks/Parse.framework; sourceTree = SDKROOT; };
-		BAD2B47A1ACD912100DE122B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = System/Library/Frameworks/ParseFacebookUtils.framework; sourceTree = SDKROOT; };
+		BAD2B47E1ACD945B00DE122B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = System/Library/Frameworks/Bolts.framework; sourceTree = SDKROOT; };
+		BAD2B47F1ACD945B00DE122B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = System/Library/Frameworks/Parse.framework; sourceTree = SDKROOT; };
+		BAD2B4801ACD945B00DE122B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = System/Library/Frameworks/ParseFacebookUtils.framework; sourceTree = SDKROOT; };
 		BAFCF4961A27CDA100B6F02D /* FortyHall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FortyHall.h; sourceTree = "<group>"; };
 		BAFCF4971A27CDA100B6F02D /* FortyHall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FortyHall.m; sourceTree = "<group>"; };
 		BAFCF49D1A27CE0900B6F02D /* ThirtyHall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirtyHall.h; sourceTree = "<group>"; };
@@ -572,9 +574,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD2B47B1ACD912100DE122B /* Bolts.framework in Frameworks */,
-				BAD2B47C1ACD912100DE122B /* Parse.framework in Frameworks */,
-				BAD2B47D1ACD912100DE122B /* ParseFacebookUtils.framework in Frameworks */,
+				BAD2B4811ACD945B00DE122B /* Bolts.framework in Frameworks */,
+				BAD2B4821ACD945B00DE122B /* Parse.framework in Frameworks */,
+				BAD2B4831ACD945B00DE122B /* ParseFacebookUtils.framework in Frameworks */,
 				BA3561F81A13A89D00D1407E /* UIKit.framework in Frameworks */,
 				BA3561F61A13A89500D1407E /* SystemConfiguration.framework in Frameworks */,
 				BA3561F41A13A88600D1407E /* StoreKit.framework in Frameworks */,
@@ -606,9 +608,9 @@
 		0A5BEC9C1A06C66C00FDFAB9 = {
 			isa = PBXGroup;
 			children = (
-				BAD2B4781ACD912100DE122B /* Bolts.framework */,
-				BAD2B4791ACD912100DE122B /* Parse.framework */,
-				BAD2B47A1ACD912100DE122B /* ParseFacebookUtils.framework */,
+				BAD2B47E1ACD945B00DE122B /* Bolts.framework */,
+				BAD2B47F1ACD945B00DE122B /* Parse.framework */,
+				BAD2B4801ACD945B00DE122B /* ParseFacebookUtils.framework */,
 				BA3561F71A13A89D00D1407E /* UIKit.framework */,
 				BA3561F51A13A89500D1407E /* SystemConfiguration.framework */,
 				BA3561F31A13A88600D1407E /* StoreKit.framework */,
@@ -689,6 +691,7 @@
 				BA06D38D1A0BE7C500A4DF65 /* 35minute.jpg */,
 				BA06D3911A0BE7CF00A4DF65 /* 60minutes.jpg */,
 				BA06D38F1A0BE7CA00A4DF65 /* 45minutes.jpg */,
+				BA5BA3ED1ACF199400BDB90A /* foxnice.png */,
 				0A5BECB51A06C66C00FDFAB9 /* Images.xcassets */,
 				0A5BECA91A06C66C00FDFAB9 /* Info.plist */,
 				0A5BECAA1A06C66C00FDFAB9 /* main.m */,
@@ -1226,6 +1229,7 @@
 				BABC85C21A874A82006E2661 /* OTA0023.jpg in Resources */,
 				BABC860A1A874A82006E2661 /* OTA0095.jpg in Resources */,
 				BABC85DE1A874A82006E2661 /* OTA0051.jpg in Resources */,
+				BA5BA3EE1ACF199400BDB90A /* foxnice.png in Resources */,
 				BABC85E41A874A82006E2661 /* OTA0057.jpg in Resources */,
 				BABC86191A874A82006E2661 /* OTA0110.jpg in Resources */,
 				BABC85DC1A874A82006E2661 /* OTA0049.jpg in Resources */,
